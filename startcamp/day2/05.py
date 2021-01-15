@@ -1,0 +1,33 @@
+#조건문
+#홀수 짝수 출력
+
+# 1. 주어진 양수 n이 홀수, 짝가수인지 판별하여 출력하는 코드
+n=10
+
+if (n%2)==1:
+    print('홀수')
+else:
+    print('짝수')
+
+# 반복문
+
+numbers = [ 1,2,3,4,5,6,7,8,9]
+# 리스트의 원소중에서 홀수만 찾아 그 값을 '~는 홀수입니다.' 라고 출력하시오.
+
+print(len(numbers))
+a=numbers
+#print(number[2])
+print(a[1])
+
+for number in numbers:
+    if number % 2 ==1:
+        print(f'{numbers}는 홀수입니다.')
+
+
+빈리스트=[]
+
+for number in numbers:
+    if number % 2 ==1:
+        print(f'{number}은 홀수입니다.')
+
+
